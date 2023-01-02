@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.95"/>
+    <meta name="author" content="Elena Bechmanis" />
+    <title>Harpreet Kaur Aulakh - Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css" type="text/css" />
+    <!-- Importing external script from Font Awesome (icons from Font Awesome were used in this project) -->
+    <script src="https://kit.fontawesome.com/aed0f42389.js" crossorigin="anonymous"></script>
+    <script src="./js/nav.js" defer></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  </head>
+  <body>
+    <header class="mhdr flex">
+        <span class="logo">   </span>
+        <button class="nav-toggle" aria-controls="my-nav-list" aria-expanded="false"><span class="sr-only">Menu</span></button>
+          <nav class="my-nav">
+            <ul id="my-nav-list" data-visible="false" class="my-nav-list flex">
+              <li><a class="nav-elem" href="#about-me">About</a></li>
+              <li><a class="nav-elem" href="#projects">Projects</a></li>
+              <li><a class="nav-elem" href="#skills">Skills</a></li>
+              <li><a class="nav-elem" href="#contact-form">Contact me</a></li>
+            </ul>
+          </nav>
+    </header>
+     <!-- The bar on the left side of the landing page that contains icons for social media and other relevant links -->
+     <aside id="icons-bar">
+        <a href="https://github.com/harpreetaulakh"><i class="fa-brands fa-github fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/harpreetaulakh1/"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+        <a href="mailto:Harpreet251296@gmail.com"><i class="fa-solid fa-envelope fa-2x"></i></a>
+    </aside>
+    <!-- Section for the landing page -->
+    <section id="start" class="lndng">
+        <div class="gr-cln">
+                <br>
+            <img id="my-photo" src="./assets/Elena_B.jpg" width="300px" alt="Elena Bechmanis">
+            <br>
+       </div>
+       <div class="gr-cln">
+        <br>
+        <p><span id="hi">HI THERE! I AM</span></p>
+        <h1><span id="my-name">HARPREET KAUR</span> AULAKH</h1>
+        <h2>DevOps Engineer</h2>
+        <p class="notes">A<mark>DevOps Engineer Coop student at RBC</mark>with unlimited energy and passion for coding and learning new things.<br> I want to help people to make the most of their digital experience and<mark>build things</mark>that make difference.</p>
+        <br>
+        <div id="buttons">
+        <button id="resume" class="body-btn" type="submit" onclick="window.open('./assets/resume.pdf')"><i class="fa-solid fa-download fa-lg"></i>Resumé</button>
+        <button id="contact" class="body-btn" onclick="window.location.href='#contact-form';">Contact Me</button>
+    </div>
+       </div>
+       <div class="arrows"><a class="arrows" href="#about-me"><i class="fa-solid fa-arrow-down-long fa-xl fa-beat"></i></a></div>
+    </section>
+    <aside id="location"><i class="fa-solid fa-location-dot fa-rotate-90"></i><span> Toronto, ON</span></aside>
+    <section id="about-me">
+        <div id="info">
+            <h2>About me</h2>
+            <hr/>
+            <br>
+            <p>I am a full-time student at Seneca College taking Computer Programming & Analysis.</p>
+            <p>I have started my Journey by knowing my skills one of them is Multitasking and keen to learn new things. I started studying at seneca and along with that i have started DevOps Engineer Certifcate at Busy QA.
+                Where i got to know which career should i choose i IT after Programming.Now, I am working as DevOps engineer Coop at RBC Wealth Management Team.
+        <div id="more-info">
+            <h4>I am...</h4>
+            <hr/>
+            <br>
+            <div class="more-info-row">
+                <p><i class="fa-solid fa-graduation-cap fa-4x"></i></p>
+                <h5>Erudite</h5>
+                <div><i class="fa-solid fa-check"></i>  professional with 4 years of experience in Customer service in Transportation.</div>
+                <div><i class="fa-solid fa-check"></i> Learning is my life passion and coding gave me a chance for life-long learning experience</div>
+            </div>
+            <div class="more-info-row">
+                <p><i class="fa-solid fa-user-tie fa-4x"></i></p>
+                <h5>Perfect employee</h5>
+                <div><i class="fa-solid fa-check"></i> Time management guru</div>
+                <div><i class="fa-solid fa-check"></i> Team player</div>
+                <div><i class="fa-solid fa-check"></i> Responsible and reliable</div>
+                <div><i class="fa-solid fa-check"></i> Analytical mindset</div>
+                <div><i class="fa-solid fa-check"></i> Multilingual and multicultural background</div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div id="info">
+            <h2>My latest projects</h2>
+            <hr/>
+            <div><b>*</b> <em>I only make finished projects public. The ones on the go will be added upon completion</em></div>
+            <br>
+        </div>
+        <div class="prj">
+            <div class="prj-img">
+                <img src="./assets/screenshots/find-your-tune.jpg" width="300" alt="Project screenshot">
+                <p><a href="http://find-your-tune.herokuapp.com/">VIEW LIVE</a>&nbsp&nbsp/<a href="https://github.com/e-bechmanis/yourTune">VIEW CODE&nbsp&nbsp<i class="fa-brands fa-github"></i> </a></p>
+            </div>
+            <div class="prj-desc">
+                <h4>Music & Entertainment Web App</h4>
+                <p><em>Web App with multiple modules which allows a registered user to browse and update data</em></p>
+                <p><b>Technologies used: <mark>NodeJS, Express, HandlebarsJS, REST API, PostgreSQL, MongoDB, Bcrypt</mark></b></p>
+                <ul>
+                    <li>Own project from scratch. Main focus on back-end</li>
+                    <li>Incorporated the Handlebars view engine to render data visually in the browser using .hbs views and layouts</li>
+                    <li>Music module, news module and user module</li>
+                    <li>Worked with Client Sessions and data persistence using MongoDB to add user registration and Login/Logout functionality & tracking (logging)</li>
+                    <li>Password storage logic includes hashed passwords using bcrypt.js</li>
+                </ul>
+            </div>
+       </div>
+       <div class="prj">
+        <div class="prj-img">
+            <img src="./assets/portfolio.jpg" width="300" alt="Project screenshot">
+            <p><a href="#">VIEW LIVE</a>&nbsp&nbsp/<a href="#">VIEW CODE&nbsp&nbsp<i class="fa-brands fa-github"></i> </a></p>
+        </div>
+        <div class="prj-desc">
+            <h4>Portfolio website</h4>
+            <p><em>Responsive design portfolio website</em></p>
+            <p><b>Technologies used: <mark>HTML, CSS, JavaScript</mark></b></p>
+            <ul>
+                <li>Customized CSS (animation, gradients, shadows, custom buttons etc)</li>
+                <li>Different layout for laptop, tablet and mobile for better user experience</li>
+                <li>Design and implementation is my own work</li>
+                <li>Rendering projects/technologies data from arrays of JSON objects, to make it easy to update the data</li>
+            </ul>
+        </div>
+   </div>
+       <!-- <div class="prj">
+        <div class="prj-img">
+            <img src="https://via.placeholder.com/300x200.png" alt="Project screenshot">
+            <p><a href="#">VIEW LIVE</a>&nbsp&nbsp/<a href="#">VIEW CODE&nbsp&nbsp<i class="fa-brands fa-github"></i> </a></p>
+        </div>
+        <div class="prj-desc">
+            <h4>Blog App</h4>
+            <p><em>Web App that uses multiple routes which serve static files (HTML & CSS) as well as blog module for accessing and modifying data</em></p>
+            <p><b>Technologies used: <mark>NodeJS, Express, REST API, PostgreSQL, MongoDB, Bcrypt</mark></b></p>
+            <ul>
+                <li>Main focus on back-end. Used Bootstrap to style the app</li>
+                <li>Incorporated the Handlebars view engine to render data visually in the browser using .hbs views and layouts</li>
+                <li>Worked with a Postgres data source on the server and practiced refactoring an application</li>
+                <li>Worked with Client Sessions and data persistence using MongoDB to add user registration and Login/Logout functionality & tracking (logging)</li>
+                <li>Password storage logic includes hashed passwords using bcrypt.js</li>
+            </ul>
+        </div>
+   </div>
+   <div id="info">
+    <h4>Mini-projects</h4>
+    <hr/>
+    <div><b>*</b> <em>These are some of mini-projects I did as a part of JetBrains Academy Frontend Core Track and The Odin Project.</em></div>
+    <br>
+</div>
+   <div class="prj">
+    <div class="mini-prj">
+        <img src="./assets/screenshots/piano.jpg" width="300" alt="Project screenshot">
+        <h5>Virtual Piano</h5>
+        <p>HTML, CSS, JavaScript</p>
+        <p><a href="#">VIEW LIVE</a>&nbsp&nbsp/<a href="#">VIEW CODE&nbsp&nbsp<i class="fa-brands fa-github"></i> </a></p>
+    </div>
+        <div class="mini-prj">
+            <img src="./assets/screenshots/piano.jpg" width="300" alt="Project screenshot">
+            <h5>Virtual Piano</h5>
+            <p>HTML, CSS, JavaScript</p>
+            <p><a href="#">VIEW LIVE</a>&nbsp&nbsp/<a href="#">VIEW CODE&nbsp&nbsp<i class="fa-brands fa-github"></i> </a></p>
+        </div>
+        <div class="mini-prj">
+            <img src="./assets/screenshots/piano.jpg" width="300" alt="Project screenshot">
+            <h5>Virtual Piano</h5>
+            <p>HTML, CSS, JavaScript</p>
+            <p><a href="#">VIEW LIVE</a>&nbsp&nbsp/<a href="#">VIEW CODE&nbsp&nbsp<i class="fa-brands fa-github"></i> </a></p>
+        </div>
+</div>-->
+   <p id="bottom-note"><b>Please visit <a href="https://github.com/e-bechmanis">my github account</a> for more projects and C++ console applications</b></p>
+    </section>
+    <section id="skills">
+        <div id="know">
+            <h2>What's in my toolkit <i class="fa-solid fa-toolbox"></i></h2>
+            <hr/>
+            <br>
+            <h5>WEB technologies</h5>
+            <div class="skills-gr">
+            <div><img src="./assets/logos/html-1.svg" height="40"><p>HTML</p></div>
+            <div><img src="./assets/logos/CSS3_logo.svg" height="40"><p>CSS</p></div>
+            <div><img src="./assets/logos/javascript.png" height="40"><p>JavaScript</p></div>
+            <div><img src="./assets/logos/jquery-icon.svg" height="40"><p>JQuery</p></div>
+            <div><img src="./assets/logos/api-svgrepo-com.svg" height="40"><p>REST API</p></div>
+            <div><img src="./assets/logos/React-icon.svg" height="40"><p>React</p></div>
+            <div><img src="./assets/logos/node.png" height="40"><p>NodeJS</p></div>
+            <div><img src="./assets/logos/express.svg" height="40"><p>Express</p></div>
+            </div>
+            <h5>Database skills</h5>
+            <div class="skills-gr">
+            <div><img src="./assets/logos/Oracle_SQL_Developer-Logo.wine.svg" height="40"><p>Oracle SQL</p></div>
+            <div><img src="./assets/logos/AppDev_plsql_detailed.svg" height="40"><p>PL/SQL</p></div>
+            <div><img src="./assets/logos/Postgresql_elephant.svg" height="40"><p>PostgreSQL</p></div>
+            <div><img src="./assets/logos/cdnlogo.com_mongodb-icon.svg" height="40"><p>MongoDB</p></div>
+            </div>
+            <h5>I also know</h5>
+            <div class="skills-gr">
+            <div><img src="./assets/logos/ISO_C++_Logo.svg" height="40"><p>C++</p></div>
+            <div><img src="./assets/logos/Python-logo-notext.svg" height="40"><p>Python</p></div>
+            <div><img src="./assets/logos/Git_icon.svg" height="40"><p>Git</p></div>
+            <div><img src="./assets/logos/Windows-11-icon.svg" height="40"><p>Windows</p></div>
+            <div><img src="./assets/logos/Tux.svg" height="40"><p>Linux</p></div>
+            <div><img src="./assets/logos/Visual_Studio_Icon_2019.svg" height="40"><p>Visual Studio</p></div>
+            <div><img src="./assets/logos/Visual_Studio_Code_1.35_icon.svg" height="40"><p>VSCode</p></div>
+            </div>
+            <hr/>
+        </div>
+    </section>
+    <!-- Here starts the section with "Contact me" form -->
+    <section id="contact-form">
+        <div id="info">
+            <h2>Get in touch</h2>
+            <hr/>
+            <br>
+        </div>
+    <form id="contact-form" name="contact" action="https://formspree.io/f/mqkjeqpw" method="POST">
+    <div id="contact-wrapper">
+        <input
+          id="contact-name"
+          name="contact-name"
+          maxlength="50"
+          placeholder="Your Name"
+          autocomplete off
+          type="text"
+          tabindex="1"
+          required
+        />
+        <input
+          id="contact-email"
+          name="contact-email"
+          autocomplete="email"
+          placeholder="Your Email"
+          type="email"
+          tabindex="2"
+          required
+        />
+    </div>
+    <div id="message-wrapper">
+        <textarea
+          id="contact-message"
+          name="message"
+          rows="5"
+          placeholder="Type your message here..."
+          tabindex="3"
+          required
+        ></textarea>
+    </div>
+    <div id="last-row">
+        <div class="contact">
+            <button type="submit" class="body-btn" id="submit">Send <i class="fa-solid fa-paper-plane fa-lg"></i></button>
+        </div>
+        </div>
+      </form>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="rgb(212, 118, 3)" fill-opacity="1" d="M0,64L80,53.3C160,43,320,21,480,48C640,75,800,149,960,170.7C1120,192,1280,160,1360,144L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+</section>
+<!-- An arrow to let user navigate back to the top of the page -->
+<div id="endpage">
+    <a class="up" href="./index.html"><i class="fa-solid fa-arrow-up fa-2x fa-beat"></i></a>
+  </div>
+  </body>
+  <footer>
+  </footer>
+  </html>
+
