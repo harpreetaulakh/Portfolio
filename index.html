@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -38,8 +36,8 @@
     <section id="start" class="lndng">
         <div class="gr-cln">
                 <br>
-            <img id="my-photo" src="./assets/Elena_B.jpg" width="300px" alt="Elena Bechmanis">
-            <br>
+            <img id="my-photo" src="./assets/logos/Harpreet.jpg" width="300px" alt="Harpreet Aulakh">
+        <br>
        </div>
        <div class="gr-cln">
         <br>
@@ -49,7 +47,7 @@
         <p class="notes">A<mark>DevOps Engineer Coop student at RBC</mark>with unlimited energy and passion for coding and learning new things.<br> I want to help people to make the most of their digital experience and<mark>build things</mark>that make difference.</p>
         <br>
         <div id="buttons">
-        <button id="resume" class="body-btn" type="submit" onclick="window.open('./assets/resume.pdf')"><i class="fa-solid fa-download fa-lg"></i>Resumé</button>
+        <button id="resume" class="body-btn" type="submit" onclick="window.open('./assets/Harpreet_AULAKH.pdf')"><i class="fa-solid fa-download fa-lg"></i>Resumé</button>
         <button id="contact" class="body-btn" onclick="window.location.href='#contact-form';">Contact Me</button>
     </div>
        </div>
@@ -94,27 +92,22 @@
             <br>
         </div>
         <div class="prj">
-            <div class="prj-img">
-                <img src="./assets/screenshots/find-your-tune.jpg" width="300" alt="Project screenshot">
-                <p><a href="http://find-your-tune.herokuapp.com/">VIEW LIVE</a>&nbsp&nbsp/<a href="https://github.com/e-bechmanis/yourTune">VIEW CODE&nbsp&nbsp<i class="fa-brands fa-github"></i> </a></p>
-            </div>
             <div class="prj-desc">
-                <h4>Music & Entertainment Web App</h4>
-                <p><em>Web App with multiple modules which allows a registered user to browse and update data</em></p>
-                <p><b>Technologies used: <mark>NodeJS, Express, HandlebarsJS, REST API, PostgreSQL, MongoDB, Bcrypt</mark></b></p>
+                <h4>ETL Pipeline</h4>
+                <p><em>ETL pipeline created in bash script fetching data from postgresDB to S3 Bucket</script></em></p>
+                <p><b>Technologies used: <mark> PostgresDBL, SQL Query, Bash script, Yaml, Docker, K8s, NIFI,superset and Trino </mark></b></p>
                 <ul>
-                    <li>Own project from scratch. Main focus on back-end</li>
-                    <li>Incorporated the Handlebars view engine to render data visually in the browser using .hbs views and layouts</li>
-                    <li>Music module, news module and user module</li>
-                    <li>Worked with Client Sessions and data persistence using MongoDB to add user registration and Login/Logout functionality & tracking (logging)</li>
-                    <li>Password storage logic includes hashed passwords using bcrypt.js</li>
+                    <li>ETL pipeline created to fetch data from postgresDB to S3 Bucket</li>
+                    <li>Deployed on OCP using docker image and NIFI processors in K8s</li>
+                    <li>created spark job in Python to change csv data to Parquet</li>
+                    <li>Then created Hive table on Trino.</li>
+                    <li>For better Analysis created superset dashboard on top of it.</li>
                 </ul>
             </div>
        </div>
        <div class="prj">
         <div class="prj-img">
-            <img src="./assets/portfolio.jpg" width="300" alt="Project screenshot">
-            <p><a href="#">VIEW LIVE</a>&nbsp&nbsp/<a href="#">VIEW CODE&nbsp&nbsp<i class="fa-brands fa-github"></i> </a></p>
+            <p><a href="#">VIEW LIVE</a>&nbsp&nbsp/<a href="https://github.com/harpreetaulakh/Portfolio">VIEW CODE&nbsp&nbsp<i class="fa-brands fa-github"></i> </a></p>
         </div>
         <div class="prj-desc">
             <h4>Portfolio website</h4>
@@ -128,51 +121,7 @@
             </ul>
         </div>
    </div>
-       <!-- <div class="prj">
-        <div class="prj-img">
-            <img src="https://via.placeholder.com/300x200.png" alt="Project screenshot">
-            <p><a href="#">VIEW LIVE</a>&nbsp&nbsp/<a href="#">VIEW CODE&nbsp&nbsp<i class="fa-brands fa-github"></i> </a></p>
-        </div>
-        <div class="prj-desc">
-            <h4>Blog App</h4>
-            <p><em>Web App that uses multiple routes which serve static files (HTML & CSS) as well as blog module for accessing and modifying data</em></p>
-            <p><b>Technologies used: <mark>NodeJS, Express, REST API, PostgreSQL, MongoDB, Bcrypt</mark></b></p>
-            <ul>
-                <li>Main focus on back-end. Used Bootstrap to style the app</li>
-                <li>Incorporated the Handlebars view engine to render data visually in the browser using .hbs views and layouts</li>
-                <li>Worked with a Postgres data source on the server and practiced refactoring an application</li>
-                <li>Worked with Client Sessions and data persistence using MongoDB to add user registration and Login/Logout functionality & tracking (logging)</li>
-                <li>Password storage logic includes hashed passwords using bcrypt.js</li>
-            </ul>
-        </div>
-   </div>
-   <div id="info">
-    <h4>Mini-projects</h4>
-    <hr/>
-    <div><b>*</b> <em>These are some of mini-projects I did as a part of JetBrains Academy Frontend Core Track and The Odin Project.</em></div>
-    <br>
-</div>
-   <div class="prj">
-    <div class="mini-prj">
-        <img src="./assets/screenshots/piano.jpg" width="300" alt="Project screenshot">
-        <h5>Virtual Piano</h5>
-        <p>HTML, CSS, JavaScript</p>
-        <p><a href="#">VIEW LIVE</a>&nbsp&nbsp/<a href="#">VIEW CODE&nbsp&nbsp<i class="fa-brands fa-github"></i> </a></p>
-    </div>
-        <div class="mini-prj">
-            <img src="./assets/screenshots/piano.jpg" width="300" alt="Project screenshot">
-            <h5>Virtual Piano</h5>
-            <p>HTML, CSS, JavaScript</p>
-            <p><a href="#">VIEW LIVE</a>&nbsp&nbsp/<a href="#">VIEW CODE&nbsp&nbsp<i class="fa-brands fa-github"></i> </a></p>
-        </div>
-        <div class="mini-prj">
-            <img src="./assets/screenshots/piano.jpg" width="300" alt="Project screenshot">
-            <h5>Virtual Piano</h5>
-            <p>HTML, CSS, JavaScript</p>
-            <p><a href="#">VIEW LIVE</a>&nbsp&nbsp/<a href="#">VIEW CODE&nbsp&nbsp<i class="fa-brands fa-github"></i> </a></p>
-        </div>
-</div>-->
-   <p id="bottom-note"><b>Please visit <a href="https://github.com/e-bechmanis">my github account</a> for more projects and C++ console applications</b></p>
+   <p id="bottom-note"><b>Please visit <a href="https://github.com/harpreetaulakh">my github account</a> for more projects and C++ console applications</b></p>
     </section>
     <section id="skills">
         <div id="know">
@@ -199,6 +148,9 @@
             </div>
             <h5>I also know</h5>
             <div class="skills-gr">
+            <div><img src="./assets/logos/SPARK.jpeg" height="40"><p>Spark</p></div>
+            <div><img src="./assets/logos/SUPERSET.jpeg" height="40"><p>Superset</p></div>
+            <div><img src="./assets/logos/Apache NIFI.png" height="40"><p>Apache NIFI</p></div>
             <div><img src="./assets/logos/ISO_C++_Logo.svg" height="40"><p>C++</p></div>
             <div><img src="./assets/logos/Python-logo-notext.svg" height="40"><p>Python</p></div>
             <div><img src="./assets/logos/Git_icon.svg" height="40"><p>Git</p></div>
